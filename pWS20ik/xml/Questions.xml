@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<assessmentItems>
+	<assessmentItem author="rosa.arruabarrena@ehu.eus" subject="Mikologia">
+		<itemBody> 
+			<p>Zein Amanita da jangarria?</p>
+		</itemBody>
+		<correctResponse>
+			<response>Caesarea</response>
+		</correctResponse>
+		<incorrectResponses>
+			<response>Phalloides</response>
+			<response>Muscaria</response>
+			<response>Virosa</response>
+		</incorrectResponses>
+	</assessmentItem>
+	<assessmentItem author="vadillo@ehu.es" subject="Mikologia">
+		<itemBody> 
+			<p>Tripakiek zer dute kapela azpian?</p>
+		</itemBody>
+		<correctResponse>
+			<response>Eztenak</response>
+		</correctResponse>
+		<incorrectResponses>
+			<response>Filamenduak</response>
+			<response>Himenioa</response>
+			<response>Hodiak</response>
+		</incorrectResponses>
+	</assessmentItem>
+	<assessmentItem author="mafalda001@ikasle.ehu.eus" subject="Mikologia">
+		<itemBody>
+			<p>Eranztuna du</p>
+		</itemBody>
+		<correctResponse>
+			<response>Galanpernak</response>
+		</correctResponse>
+		<incorrectResponses>
+			<response>Gibel urdinak</response>
+			<response>Esnegorriak</response>
+			<response>Errotariak</response>
+		</incorrectResponses>
+	</assessmentItem>
+<assessmentItem author="proba000@ehu.eus" subject="probak"><itemBody><p>galdera proba</p></itemBody><correctResponse><response>xml</response></correctResponse><incorrectResponses><response>sad</response><response>dsf</response><response>dsd</response></incorrectResponses></assessmentItem><assessmentItem author="gorka010@ehu.eus" subject="sdagsdf"><itemBody><p>fasdgfdasgdsafgdfag</p></itemBody><correctResponse><response>sdfsa</response></correctResponse><incorrectResponses><response>sdfsaf</response><response>dfsaf</response><response>dsafdg</response></incorrectResponses></assessmentItem><assessmentItem author="gorka010@ehu.eus" subject="FAGFDSG"><itemBody><p>proba22222222</p></itemBody><correctResponse><response>safFS</response></correctResponse><incorrectResponses><response>SDAGSSDG</response><response>SDGASDGA</response><response>SAFDGAFSD</response></incorrectResponses></assessmentItem><assessmentItem author="proba000@ikasle.ehu.eus" subject="probak"><itemBody><p>hau proba bat da?</p></itemBody><correctResponse><response>bai</response></correctResponse><incorrectResponses><response>ez</response><response>ez</response><response>ez</response></incorrectResponses></assessmentItem><assessmentItem author="proba000@ikasle.ehu.eus" subject="probak"><itemBody><p>hau proba bat da?</p></itemBody><correctResponse><response>bai</response></correctResponse><incorrectResponses><response>ez</response><response>ez</response><response>ez</response></incorrectResponses></assessmentItem><assessmentItem author="gorka010@ehu.eus" subject="agfsd"><itemBody><p>safsdfgasdg</p></itemBody><correctResponse><response>gfda</response></correctResponse><incorrectResponses><response>fdag</response><response>fagd</response><response>fadg</response></incorrectResponses></assessmentItem></assessmentItems>

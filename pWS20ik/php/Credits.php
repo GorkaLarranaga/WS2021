@@ -27,7 +27,7 @@
 					<table>
 						<tr>
 							<th>Deiturak: </th>
-							<td>Gorka Larrañaga</td>
+							<td>Gorka Larrañaga Cengotitabengoa</td>
 						</tr>
 						<tr>
 							<th>Espezialitatea: </th>
@@ -35,7 +35,7 @@
 						</tr>
 						<tr>
 							<th>Argazkia: </th>
-							<td/>
+							<td><img src="../images/argazkia.jpg" alt="argazkia"><td/>
 						</tr>
 						<tr>
 							<th>Udalerria: </th>

@@ -6,6 +6,8 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!--<script src="../js/ValidateFieldsQuestion.js"></script>-->
+  <script src="../js/AddQuestionAjax.js"></script>
+  <script src="../js/ShowQuestionsAjax.js"></script>
   
   <style>
 			.center {
@@ -53,13 +55,19 @@
 			<th>*Galderaren gaia:</th><td><input type="text" name="gaia" id="gaia"></td>
 		</tr>
 		<tr>
-			<td><input type="submit" value="Bidali" id="bidali"></td> <td><input type="reset" value="Borratu"></td>
+			<td><input type="button" value="Bidali" id="bidali"></td> <td><input type="reset" value="Borratu"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="XMLikusi" id="XMLikusi"></td> 
 		</tr>
 		</table>
 	  </form>	
 	  </div>
 	  
-    </div>
+		<div class="center" id="erantzuna"></div>
+		<div class="center" id="XMLtaula"></div>
+	  
+	</div>
   </section>
   <?php include '../html/Footer.html' ?>
 </body>
