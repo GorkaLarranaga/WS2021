@@ -59,7 +59,7 @@
 					    die("Errorea konektatzerakoan: " . $link->connect_error);
 					}
 
-					$sql_Questions = "INSERT INTO Questions (Eposta, Galdera, EZuzena, EOkerra1, EOkerra2, EOkerra3, Zailtasuna, Gaia)
+					$sql_Questions = "INSERT INTO questions (Eposta, Galdera, EZuzena, EOkerra1, EOkerra2, EOkerra3, Zailtasuna, Gaia)
 					VALUES ('$EPosta', '$Galdera', '$EZuzena', '$EOkerra1', '$EOkerra2', '$EOkerra3', '$Zail', '$Gaia')";
 
 

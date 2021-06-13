@@ -101,7 +101,7 @@
 					die("Errorea konektatzerakoan: " . $link->connect_error);
 				}
 
-				$sql_Erabil = "INSERT INTO Erabiltzaileak (Eposta, Mota, Deitura, Pasahitza, Pasahitza2)
+				$sql_Erabil = "INSERT INTO erabiltzaileak (Eposta, Mota, Deitura, Pasahitza, Pasahitza2)
 				VALUES ('$EPosta', '$EMota', '$Deitura', '$Pasahitza', '$Pasahitza2')";
 
 

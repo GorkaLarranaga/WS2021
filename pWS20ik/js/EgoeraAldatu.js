@@ -1,16 +1,22 @@
- function egoeraAldatu(posta)
-  {			
+ $(document).ready(function(){
+$('#aldatu').click(function() {
+    
+    alert("Mesedez orria berriro kargatu");
 	
+		var eposta = $("#posta").val();
+		  $.ajax({
+			type: "POST",
+			cache: false,
+			url: "ChangeUserState.php",
+			data: 'posta='+eposta,
+		  }).done(function( msg ) {
+			alert( "Egoera aldatua" );
+		  }).fail( function() {
+			alert( 'Errorea aldatzen');
+		  });
+		  
+		  
+		  
+});
 
-			$.ajax({
-				type: "POST",
-				cache: false,
-				url: "ChangeUserState.php",
-				data: posta,
-				dataType: "html",
-				error: function(ts){alert(ts.responseText)},
-				success: function(response)
-				{
-				}
-			})
-  } 
+});

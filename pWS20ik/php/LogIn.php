@@ -59,7 +59,7 @@
 				die("Errorea konektatzerakoan: " . $link->connect_error);
 			}
 
-			$sql_Erabil = "SELECT * FROM Erabiltzaileak WHERE Eposta='$EPosta'";
+			$sql_Erabil = "SELECT * FROM erabiltzaileak WHERE Eposta='$EPosta'";
 			
 			$emaitza = $link->query($sql_Erabil);
 
@@ -68,7 +68,7 @@
 				if($Pasahitza != $erabiltzailea['Pasahitza']) echo '<script> alert("Pasahitza gaizki"); </script>';
 				else {
 					
-					session_start();
+		             session_start(); 
 					$_SESSION['erab']=$erabiltzailea['Eposta'];
 					if($erabiltzailea['Mota']=="admin")
 					{

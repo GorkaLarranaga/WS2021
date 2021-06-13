@@ -2,7 +2,7 @@
 <header class='main' id='h1'>
 
 <?php
-    session_start();
+   session_start(); 
     if(!isset($_SESSION['erab'])) {
     ?>
 	<span class="right"><a href="SignUp.php">Erregistratu</a></span>

@@ -19,7 +19,7 @@
 						{
 						    die("Errorea konektatzerakoan: " . $link->connect_error);
 						}
-						$sql_Questions = "SELECT * FROM Questions";
+						$sql_Questions = "SELECT * FROM questions";
 
 						$ema = $link->query($sql_Questions);
 

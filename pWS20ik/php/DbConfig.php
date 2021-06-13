@@ -1,5 +1,5 @@
 <?php
-$lokal=1; //0 hodeirako
+$lokal=0; //0 hodeirako
 if ($lokal){
 	$zerbitzaria="localhost";
     $erabiltzailea="root";
@@ -8,8 +8,8 @@ if ($lokal){
 }
 else{
     $zerbitzaria="localhost";
-    $erabiltzailea="";
-    $gakoa="";
-    $db="";
+    $erabiltzailea="id17014438_wsgorka";
+    $gakoa="s_>fci6@1(VH}%ij";
+    $db="id17014438_quiz";
 }
 ?>
